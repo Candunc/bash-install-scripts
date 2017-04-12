@@ -15,8 +15,8 @@ do
 	NUM2=$((2 + RANDOM % 10))
 done
 
-mirror1=$(sed "${NUM}q;d" /tmp/mirrors.txt | tr -d '[:space:]')
-mirror2=$(sed "${NUM}q;d" /tmp/mirrors.txt | tr -d '[:space:]')
+mirror1=$(sed "${NUM1}q;d" /tmp/mirrors.txt | tr -d '[:space:]')
+mirror2=$(sed "${NUM2}q;d" /tmp/mirrors.txt | tr -d '[:space:]')
 rm /tmp/mirrors.txt sources.list
 
 for f in experimental.list stable.list testing.list unstable.list
