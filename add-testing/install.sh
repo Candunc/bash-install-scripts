@@ -10,7 +10,8 @@ echo "Searching for fastest mirrors... this may take a while."
 netselect-apt >/tmp/mirrors.txt 2>/dev/null
 NUM1=$((2 + RANDOM % 10)) #Pick a random mirror from the fastest 10
 NUM2=$((2 + RANDOM % 10))
-while [ $NUM2 -eq $NUM1 ]; then #Ensure the numbers are unique
+while [ $NUM2 -eq $NUM1 ] #Ensure the numbers are unique
+do
 	NUM2=$((2 + RANDOM % 10))
 done
 
