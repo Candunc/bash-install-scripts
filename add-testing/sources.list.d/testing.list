@@ -1,2 +1,4 @@
-deb    MIRROR testing main contrib non-free
-deb-src MIRROR testing main contrib non-free
+deb     MIRROR1 testing main contrib non-free
+deb-src MIRROR1 testing main contrib non-free
+deb     MIRROR2 testing main contrib non-free
+deb-src MIRROR2 testing main contrib non-free

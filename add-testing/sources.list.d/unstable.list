@@ -1,2 +1,4 @@
-deb    MIRROR unstable main contrib non-free
-deb-src MIRROR unstable main contrib non-free
+deb     MIRROR1 unstable main contrib non-free
+deb-src MIRROR1 unstable main contrib non-free
+deb     MIRROR2 unstable main contrib non-free
+deb-src MIRROR2 unstable main contrib non-free
