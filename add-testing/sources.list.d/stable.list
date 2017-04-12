@@ -1,0 +1,2 @@
+deb    MIRROR stable main contrib non-free
+deb-src MIRROR stable main contrib non-free

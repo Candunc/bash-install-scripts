@@ -1,0 +1,2 @@
+deb    MIRROR testing main contrib non-free
+deb-src MIRROR testing main contrib non-free
